@@ -1,0 +1,5 @@
+代码向数据迁移
+namenode与datanode负责存储
+jobTracker 守护进程是应用程序和hadoop之间纽带 只有一个，运行在服务器主节点上
+TaskTacker 第个节点一个，持续与jobTraker通信，执行mapReduce
+jps 列出守护进程
